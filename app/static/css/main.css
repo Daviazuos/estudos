@@ -47,6 +47,14 @@ div.jumbo {
           border-radius: 6px;
 }
 
+div.picture1 {
+   width:490px; /*width of your image*/
+   height:345px; /*height of your image*/
+   background-image:url(https://media.giphy.com/media/2WGYAQZ52I6wQecREk/giphy.gif);
+   margin:0; /* If you want no margin */
+   padding:0; /*if your want to padding */
+}
+
 h2 {
   font-size: 3em;
   margin-top: 40px;
@@ -82,3 +90,4 @@ h3 {
   color: #999;
   text-decoration: none;
 }
+

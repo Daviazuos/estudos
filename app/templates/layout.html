@@ -1,13 +1,13 @@
 <!DOCTYPE html>
 <html>
   <head>
-<title>Flask</title>
+<title>Thanos</title>
     <strong><link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}"></strong>
   </head>
   <body>
     <header>
         <div class="container">
-        <h1 class="logo">Site do Davi</h1>
+        <h1 class="logo">Inicio</h1>
         <strong><nav>
         <ul class="menu">
         <li><a href="{{ url_for('home') }}">Home</a></li>
@@ -16,6 +16,8 @@
         </nav></strong>
         </div>
     </header>
+
+    <div class="image"></div>
 
     <div class="container">
       {% block content %}
