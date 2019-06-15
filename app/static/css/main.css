@@ -10,11 +10,11 @@ body {
  */
 
 header {
-  background-color: #2B2B2B;
-  height: 35px;
-  width: 100%;
-  opacity: .9;
-  margin-bottom: 10px;
+	background-color: #6633CC;
+	height: 35px;
+	width: 100%;
+	opacity: .9;
+	margin-bottom: 10px;
 }
 
 header h1.logo {
